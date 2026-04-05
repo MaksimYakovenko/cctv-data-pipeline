@@ -1,0 +1,10 @@
+path: C:\Users\Admin\cctv-data-pipeline\output\split_dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 3
+names:
+  - person
+  - pet
+  - vehicle

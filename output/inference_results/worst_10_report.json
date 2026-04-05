@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-04-05T16:45:25",
+  "model": "yolov8n.pt",
+  "inference_split": "val",
+  "total_images_processed": 58,
+  "worst_10": [
+    {
+      "rank": 1,
+      "image": "00041966_doorbell-stock_random-image.jpg",
+      "max_confidence": 0.0,
+      "reason": "error: cannot identify image file 'output\\\\split_dataset\\\\val\\\\images\\\\00041966_doorbell-stock_random-image.jpg'",
+      "detections": []
+    },
+    {
+      "rank": 2,
+      "image": "32EFBB9F-B3DC-4423_youtube_27-09-2023_10-57-48_7.jpg",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 3,
+      "image": "3D2A60A3-A73B-4224_youtube_28-01-2023_13-53-28_0.jpg",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 4,
+      "image": "40F110A4-0292-4612_youtube_12-12-2023_04-43-06_3.jpeg",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 5,
+      "image": "5E13EBAF-DD60-3BFF_youtube_10-02-2024_23-59-25_16.png",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 6,
+      "image": "6F09E32E-73BC-4A40_youtube_24-12-2023_22-37-44_23.png",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 7,
+      "image": "B24EC9B0-3DB8-337E_youtube_16-08-2022_13-58-09_0.jpg",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 8,
+      "image": "CA028CC2-E656-4B15_youtube_02-02-2024_14-43-38_38.png",
+      "max_confidence": 0.0,
+      "reason": "no detections",
+      "detections": []
+    },
+    {
+      "rank": 9,
+      "image": "564A2928-BC3F-41D1_youtube_16-09-2023_18-01-30_13.jpg",
+      "max_confidence": 0.267,
+      "reason": "max_conf=0.267",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.267,
+          "bbox_xyxy": [
+            58.7,
+            23.4,
+            72.7,
+            51.5
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "image": "A7E3C696-F0E5-4518_youtube_12-10-2022_21-38-14_0.jpg",
+      "max_confidence": 0.2847,
+      "reason": "max_conf=0.285",
+      "detections": [
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.2847,
+          "bbox_xyxy": [
+            6.9,
+            96.3,
+            25.7,
+            137.1
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.2839,
+          "bbox_xyxy": [
+            384.1,
+            2.4,
+            398.0,
+            27.1
+          ]
+        },
+        {
+          "class_id": 9,
+          "class_name": "traffic light",
+          "confidence": 0.2751,
+          "bbox_xyxy": [
+            308.4,
+            25.1,
+            321.3,
+            45.9
+          ]
+        }
+      ]
+    }
+  ]
+}

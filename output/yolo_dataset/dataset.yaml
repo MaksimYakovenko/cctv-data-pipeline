@@ -1,0 +1,10 @@
+path: C:\Users\Admin\cctv-data-pipeline\output\yolo_dataset
+train: images
+val: images
+test: images
+
+nc: 3
+names:
+  - person
+  - pet
+  - vehicle

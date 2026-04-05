@@ -1,0 +1,105 @@
+======================================================
+  VALIDATION REPORT — Step 1 Ingest
+  Generated: 2026-04-05T17:35:52
+======================================================
+
+SUMMARY
+------------------------------------------------------
+  Total parts:               2
+  Total images (annotation): 300
+  Total images (disk):       294
+  Total annotations:         1270
+  Missing images:            15
+  Orphan files:              9
+  Invalid bboxes:            11
+  Unknown category IDs:      1
+
+──────────────────────────────────────────────────────
+  PART: ds_part1  [coco_json]  INVALID
+──────────────────────────────────────────────────────
+  Images in annotation:  170
+  Images on disk:        165
+  Total annotations:     803
+
+  Missing images (9):
+    - 07135527-9ACE-4632_youtube_15-10-2022_11-29-55_0.jpg
+    - 1F77582E-F4FB-47F5_youtube_11-02-2023_16-09-08_0.jpg
+    - 32EFBB9F-B3DC-4423_youtube_27-09-2023_10-57-48_7.png
+    - 40F110A4-0292-4612_youtube_12-12-2023_04-43-06_3.png
+    - 4296D378-B32C-399D_youtube_10-12-2023_11-27-28_18.png
+    - 66169E14-22CF-42D0_youtube_16-08-2022_09-02-35_0.jpeg
+    - 840F3970-DE4C-315D_youtube_20-08-2022_15-12-43_2.jpg
+    - AEB501CB-6FE5-3C9C_youtube_23-08-2022_01-42-27_16.jpg
+    - D08B7E8B-85A4-34E4_youtube_18-08-2022_14-14-42_0.jpg
+
+  Orphan files (on disk, not in annotation) (4):
+    - 07135527-9ACE-4632_youtube_15-10-2022_11-29-55_0.jpeg
+    - 32EFBB9F-B3DC-4423_youtube_27-09-2023_10-57-48_7.jpg
+    - 40F110A4-0292-4612_youtube_12-12-2023_04-43-06_3.jpeg
+    - 66169E14-22CF-42D0_youtube_16-08-2022_09-02-35_0.png
+
+  Extension mismatches (4):
+    - annotation: 07135527-9ACE-4632_youtube_15-10-2022_11-29-55_0.jpg
+      on disk:    07135527-9ACE-4632_youtube_15-10-2022_11-29-55_0.jpeg
+    - annotation: 32EFBB9F-B3DC-4423_youtube_27-09-2023_10-57-48_7.png
+      on disk:    32EFBB9F-B3DC-4423_youtube_27-09-2023_10-57-48_7.jpg
+    - annotation: 40F110A4-0292-4612_youtube_12-12-2023_04-43-06_3.png
+      on disk:    40F110A4-0292-4612_youtube_12-12-2023_04-43-06_3.jpeg
+    - annotation: 66169E14-22CF-42D0_youtube_16-08-2022_09-02-35_0.jpeg
+      on disk:    66169E14-22CF-42D0_youtube_16-08-2022_09-02-35_0.png
+
+  Unknown category_ids: [0]
+
+  Invalid bboxes (0):
+    (none)
+
+──────────────────────────────────────────────────────
+  PART: ds_part2  [cvat_xml]  INVALID
+──────────────────────────────────────────────────────
+  Images in annotation:  130
+  Images on disk:        129
+  Total annotations:     467
+
+  Missing images (6):
+    - 00039166_doorbell-stock_random-image.jpg
+    - 00040809_doorbell-stock_random-image.jpg
+    - 00043417_doorbell-stock_random-image.jpg
+    - 5D0D8DF8-4552-4EC0_youtube_01-01-2024_13-22-08_5.png
+    - 797624C4-15A7-4721_youtube_05-01-2024_23-04-00_32.png
+    - 7E35EB59-808F-445E_youtube_01-01-2024_02-25-24_18.png
+
+  Orphan files (on disk, not in annotation) (5):
+    - 00039166_doorbell-stock_random-image.png
+    - 00040809_doorbell-stock_random-image.png
+    - 00043417_doorbell-stock_random-image.png
+    - 5D0D8DF8-4552-4EC0_youtube_01-01-2024_13-22-08_5.jpg
+    - 7E35EB59-808F-445E_youtube_01-01-2024_02-25-24_18.jpeg
+
+  Extension mismatches (5):
+    - annotation: 00039166_doorbell-stock_random-image.jpg
+      on disk:    00039166_doorbell-stock_random-image.png
+    - annotation: 00040809_doorbell-stock_random-image.jpg
+      on disk:    00040809_doorbell-stock_random-image.png
+    - annotation: 00043417_doorbell-stock_random-image.jpg
+      on disk:    00043417_doorbell-stock_random-image.png
+    - annotation: 5D0D8DF8-4552-4EC0_youtube_01-01-2024_13-22-08_5.png
+      on disk:    5D0D8DF8-4552-4EC0_youtube_01-01-2024_13-22-08_5.jpg
+    - annotation: 7E35EB59-808F-445E_youtube_01-01-2024_02-25-24_18.png
+      on disk:    7E35EB59-808F-445E_youtube_01-01-2024_02-25-24_18.jpeg
+
+  Invalid bboxes (11):
+    - {'image_name': 'AF74A518-EC48-467A_youtube_20-08-2022_17-01-25_1.jpg', 'label': 'person', 'coords': {'xtl': 353.0, 'ytl': 201.0, 'xbr': 2516.0, 'ybr': -94.0}, 'reason': 'нульова площа: xbr(2516.0) <= xtl(353.0) або ybr(-94.0) <= ytl(201.0); xbr=2516.0 > width=1920'}
+    - {'image_name': 'AF74A518-EC48-467A_youtube_20-08-2022_17-01-25_1.jpg', 'label': 'person', 'coords': {'xtl': 1184.0, 'ytl': 26.0, 'xbr': 1200.0, 'ybr': 1401.0}, 'reason': 'ybr=1401.0 > height=1080'}
+    - {'image_name': '6F3669D5-F09A-423E_youtube_10-01-2023_04-33-01_0.jpg', 'label': 'person', 'coords': {'xtl': 2692.0, 'ytl': 1520.0, 'xbr': 1410.0, 'ybr': 727.0}, 'reason': 'нульова площа: xbr(1410.0) <= xtl(2692.0) або ybr(727.0) <= ytl(1520.0)'}
+    - {'image_name': '6F3669D5-F09A-423E_youtube_10-01-2023_04-33-01_0.jpg', 'label': 'person', 'coords': {'xtl': 1402.0, 'ytl': 1369.0, 'xbr': 1422.0, 'ybr': 728.0}, 'reason': 'нульова площа: xbr(1422.0) <= xtl(1402.0) або ybr(728.0) <= ytl(1369.0)'}
+    - {'image_name': '0FE8CFD8-3BDD-4298_youtube_26.jpg', 'label': 'person', 'coords': {'xtl': 381.0, 'ytl': 1278.0, 'xbr': 388.0, 'ybr': 1379.0}, 'reason': 'ybr=1379.0 > height=1080'}
+    - {'image_name': 'CA028CC2-E656-4B15_youtube_02-02-2024_14-43-38_38.png', 'label': 'person', 'coords': {'xtl': -116.0, 'ytl': 604.0, 'xbr': 1005.0, 'ybr': 668.0}, 'reason': 'xtl=-116.0 < 0'}
+    - {'image_name': '5A2BE398-9F44-3A67_youtube_28-12-2023_05-44-51_33.png', 'label': 'person', 'coords': {'xtl': 1186.0, 'ytl': -35.0, 'xbr': 2690.0, 'ybr': 548.0}, 'reason': 'ytl=-35.0 < 0; xbr=2690.0 > width=1920'}
+    - {'image_name': '5A2BE398-9F44-3A67_youtube_28-12-2023_05-44-51_33.png', 'label': 'person', 'coords': {'xtl': -185.0, 'ytl': 516.0, 'xbr': 1274.0, 'ybr': 629.0}, 'reason': 'xtl=-185.0 < 0'}
+    - {'image_name': '855DE6BA-FDBD-4E6D_youtube_01-02-2024_15-15-23_14.png', 'label': 'person', 'coords': {'xtl': 1791.0, 'ytl': 56.0, 'xbr': 1818.0, 'ybr': -39.0}, 'reason': 'нульова площа: xbr(1818.0) <= xtl(1791.0) або ybr(-39.0) <= ytl(56.0)'}
+    - {'image_name': '00043660_doorbell-stock_random-image.jpg', 'label': 'person', 'coords': {'xtl': 1504.0, 'ytl': 558.0, 'xbr': 1544.0, 'ybr': 1259.0}, 'reason': 'ybr=1259.0 > height=1080'}
+    - {'image_name': '00043660_doorbell-stock_random-image.jpg', 'label': 'person', 'coords': {'xtl': -126.0, 'ytl': -46.0, 'xbr': 1172.0, 'ybr': 690.0}, 'reason': 'xtl=-126.0 < 0; ytl=-46.0 < 0'}
+
+======================================================
+  END OF REPORT
+======================================================
